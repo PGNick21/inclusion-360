@@ -30,6 +30,12 @@ const MAPPING = {
   'figure.roll': 'accessible',
   'accessible': 'accessible',
   'accessibility': 'accessible',
+  'list.bullet': 'list',
+  'checkmark.circle.fill': 'check-circle',
+  'cup.and.saucer.fill': 'local-cafe',
+  'cross.fill': 'local-hospital',
+  'bag.fill': 'shopping-bag',
+  'chevron.left': 'chevron-left',
 } as Partial<
   Record<
     string,
