@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm exec expo start --android)",
+      "Bash(taskkill /PID 17332 /F)",
+      "Bash(cmd /c \"taskkill /PID 17332 /F\")",
+      "Bash(/c/Users/NickPayano/AppData/Local/Android/Sdk/platform-tools/adb.exe shell screencap -p /sdcard/screen.png)",
+      "Bash(/c/Users/NickPayano/AppData/Local/Android/Sdk/platform-tools/adb.exe pull /sdcard/screen.png /tmp/screen.png)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\NickPayano\\Desktop"
+    ]
+  }
+}
